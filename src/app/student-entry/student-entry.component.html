@@ -1,0 +1,24 @@
+<div class="row">
+    <div class="col-xs-1">
+        <label>Roll No :</label>
+    </div>
+    <div class="col-xs-3">
+        <input type="text" placeholder="25" class="form-control" [(ngModel)]="newRollNo">
+    </div>
+</div>
+<br>
+<div class="row">
+    <div class="col-xs-1">
+        <label>Name :</label>
+    </div>
+    <div class="col-xs-7">
+        <input type="text"  placeholder="Chimaji Gomaji Kapse" class="form-control" [(ngModel)]="newName">
+    </div>
+</div>
+<br>
+<div class="row">
+    <div class="col-xs-1"></div>
+    <div class="col-xs-1">
+        <button class="btn btn-primary" (click)="addStudent()">Submit</button>
+    </div>
+</div>
